@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
-    --primary-color: navy;
+    --primary-color: #000080;
 }
 html {
     scroll-behavior: smooth;
@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-.notes {
+.file {
     display: flex;
     height: 100%;
 }
@@ -29,11 +29,11 @@ body {
 .separetor {
     margin-top: 100px;
 }
-.notes * {
+.file * {
     font-family: 'Poppins', sans-serif;
 }
 
-.notes__sidebar {
+.file_sidebar {
     border-right: 2px solid #dddddd;
     flex-shrink: 0;
     overflow-y: auto;
@@ -41,8 +41,8 @@ body {
     width: 300px;
 }
 
-.notes__add {
-    background: #009578;
+.file_add {
+    background: var(--primary-color);
     border: none;
     border-radius: 7px;
     color: #ffffff;
@@ -54,40 +54,40 @@ body {
     width: 100%;
 }
 
-.notes__add:hover {
-    background: #00af8c;
+.file_add:hover {
+    background: #0000B3;
 }
 
-.notes__list-item {
+.file_list-item {
     cursor: pointer;
 }
 
-.notes__list-item--selected {
+.file_list-item--selected {
     background: #eeeeee;
     border-radius: 7px;
     font-weight: bold;
 }
 
-.notes__small-title,
-.notes__small-updated {
+.file_small-title,
+.file_small-updated {
     padding: 10px;
 }
 
-.notes__small-title {
+.file_small-title {
     font-size: 1.2em;
 }
 
-.notes__small-body {
+.file_small-body {
     padding: 0 10px;
 }
 
-.notes__small-updated {
+.file_small-updated {
     color: #aaaaaa;
     font-style: italic;
     text-align: right;
 }
 
-.notes__preview {
+.file_preview {
     display: flex;
     flex-direction: column;
     padding: 2em 3em;
@@ -95,19 +95,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.notes__title,
-.notes__body {
+.file_title,
+.file_body {
     border: none;
     outline: none;
     width: 100%;
 }
 
-.notes__title {
+.file_title {
     font-size: 3em;
     font-weight: bold;
 }
 
-.notes__body {
+.file_body {
     flex-grow: 1;
     font-size: 1.2em;
     line-height: 1.5;

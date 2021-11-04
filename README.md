@@ -1,1 +1,3 @@
-# WAD-Assignment-Part-B
+## WAD Assignment Part B Documentation
+
+By Edilson Zau
