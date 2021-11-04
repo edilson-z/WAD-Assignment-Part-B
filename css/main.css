@@ -3,17 +3,10 @@
 :root {
     --primary-color: #000080;
 }
-html {
-    scroll-behavior: smooth;
-}
+html,
 body {
-    height: 100%;
+    height: 95%;
     margin: 0;
-}
-
-.notes {
-    display: flex;
-    height: 80%;
 }
 .nav {
     top: 0;
@@ -30,6 +23,11 @@ body {
 .separetor {
     margin-top: 100px;
 }
+.notes {
+    display: flex;
+    height: 90%;
+}
+
 .notes * {
     font-family: 'Poppins', sans-serif;
 }
@@ -37,7 +35,7 @@ body {
 .notes__sidebar {
     border-right: 2px solid #dddddd;
     flex-shrink: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding: 1em;
     width: 300px;
 }
@@ -56,7 +54,7 @@ body {
 }
 
 .notes__add:hover {
-    background: #0000B3;
+    background: #0000b3;
 }
 
 .notes__list-item {
@@ -93,14 +91,13 @@ body {
     flex-direction: column;
     padding: 2em 3em;
     flex-grow: 1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .notes__title,
 .notes__body {
     border: none;
     outline: none;
-    width: 100%;
+    width: 90%;
 }
 
 .notes__title {
