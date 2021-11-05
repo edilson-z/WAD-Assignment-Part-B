@@ -10,8 +10,7 @@ For this application the following languages were used:
 
 * HTML: For creating a basic structure for the application.
 * CSS: For adding styles and creating a good UI and UX for users.
-* JAVASCRIPT: Used as both a frontend and backend interface, for adding functionallity to the application, acting as a storage system for files and user login information, and authenticating users.
-
+* JAVASCRIPT: Used as both a frontend and backend interface, for adding functionality to the application, acting as a storage system for files and user login information, and authenticating users.
 
 ## Its key functions should include: 
 
@@ -21,23 +20,23 @@ For this application the following languages were used:
 * Deleting files
 
 
-To run the files, use VS Code or any other text editor that supports .HTML, .CSS, and .JS files.  
+To run the files, use VS Code or any other text editor that supports HTML, CSS, and JS files.
 
 ---
 
-## Downloading and openig the files 
+## Downloading and opening the files 
 
-*Note These procuders will only work if 'git' and 'code' are already insatlled in your system and added to the environment variables path.*
+*Note these producers will only work if 'git' and 'code' are already installed in your system and added to the environment variables path.*
 
-### Downloading the files 
+### Downloading the files
 
 Use the following command on the directory you want to download the files to:
 >git clone https://github.com/edilson-z/WAD-Assignment-Part-B.git
 
 
-### Openning the files
+### Opening the files
 
-If the download is succesful, run the following commands on the same directory that the files were downloaded to:
+If the download is successful, run the following commands on the same directory that the files were downloaded to:
 >code WAD-Assignment-Part-B
 
 <!-- Once the files are downloaded and opened we can now run them on a browser. -->
@@ -47,7 +46,7 @@ If the download is succesful, run the following commands on the same directory t
 
 ## Running the application
 
-To successfully run the application, begin by runnig the "login.html" file and use the credentials: 
+To successfully run the application, begin by running the "login.html" file and use the credentials:
 >email: "danni@gmail.com" 
 
 and 
@@ -56,17 +55,17 @@ and
 
 Doing so will take you to the main page "index.html" where all CRUD functions can be performed. 
 
-<br>
-*Note: if an incorrect email or password is entered the user will not be redirected to the main page.*
-<br>
-<br>
+<br/>
+*Note: if an incorrect email or password is entered, the user will not be redirected to the main page.*
+<br/>
+<br/>
 
-* In the main page new files can be created by clicking on the "Add File" button. 
+* On the main page, new files can be created by clicking on the "Add File" button. 
 
 * Files can be read by clicking on the file you wish to read.
 
-* Files can be updated by selecting the file you wish to update and changing its information. 
+* Files can be updated by selecting the file you wish to update and changing its information.
 
-* Files can be deleted by double clicking the file you wish to delete. 
+* Files can be deleted by double-clicking the file you wish to delete.
 
 ---
