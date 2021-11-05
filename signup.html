@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -23,11 +21,13 @@
         <br />
         <form action="index.html" align="center">
             <input class="inputbox" name="name" placeholder="Name" type="text" required /><br /><br />
-            <input class="inputbox" name="email" placeholder="Email" type="email" required /><br /><br />
-            <input type="password" class="inputbox" name="Password" placeholder="Password" required><br /><br />
-            <button type="submit" value="SEND" class="button" id="box" href="index" /><br /><br />
+            <input class="inputbox" name="email" placeholder="Email" id="email" type="email" required /><br /><br />
+            <input type="password" class="inputbox" name="Password" id="password" placeholder="Password" required><br /><br />
+            <button type="submit" value="SEND" class="button" id="box" href="index.html" onclick="addUser()" ><br /><br />
         </form>
     </div><br /><br />
     </div>
+    <!-- JavaScript -->
+    <script src="Scripts/signup.js"></script>
 </body>
 </html>

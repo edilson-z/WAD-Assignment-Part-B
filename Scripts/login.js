@@ -13,11 +13,11 @@ var loginData = [
 		password: "yah!"
 	}
 
-]
+];
 
 function getInfo() {
-	var email = document.getElementById('email').value
-	var password = document.getElementById('password').value
+	var email = document.getElementById('email').value;
+	var password = document.getElementById('password').value;
 
 	for(var i = 0; i < loginData.length; i++) {
 		// check is user input matches email and password of a current index of the array
