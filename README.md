@@ -3,67 +3,70 @@
 **By Edilson Zau - 220090491** 
 
 
-This project aimed to design and implement a CRUD (Create, Read, Update, Delete) app. 
+This project aimed to design and implement a CRUD (Create, Read, Update, Delete) app. The app should be able to perform basic CRUD functions, authenticate registered users, add new users to a storage system, and query from a backend.
+
+## Development Stack 
+For this application the following languages were used: 
+
+* HTML: For creating a basic structure for the application.
+* CSS: For adding styles and creating a good UI and UX for users.
+* JAVASCRIPT: Used as both a frontend and backend interface, for adding functionallity to the application, acting as a storage system for files and user login information, and authenticating users.
 
 
 ## Its key functions should include: 
 
 * Creating files
 * Reading files
-* Updatin files
+* Updating files
 * Deleting files
 
 
-To run the files, Kafka should already be downloaded on the system. 
+To run the files, use VS Code or any other text editor that supports .HTML, .CSS, and .JS files.  
 
 ---
 
-## Kafka Setup 
+## Downloading and openig the files 
 
-The consumer and producer need to be able to communicate through messages shared via a Kafka cluster. 
+*Note These procuders will only work if 'git' and 'code' are already insatlled in your system and added to the environment variables path.*
 
-To run the files, Kafka should already be installed on the system. Zookeeper and Kafka Broker should be run. 
+### Downloading the files 
 
-### Running Zookeeper 
-
-Use the following command on the bin directory of Kafka to start zookeeper:
->zookeeper-server-start.bat --..\\..\config\zookeeper.properties
+Use the following command on the directory you want to download the files to:
+>git clone https://github.com/edilson-z/WAD-Assignment-Part-B.git
 
 
-### Running Kafka-Broker
+### Openning the files
 
-Use the following command on the bin directory of Kafka to start Kafka-Broker:
+If the download is succesful, run the following commands on the same directory that the files were downloaded to:
+>code WAD-Assignment-Part-B
 
->kafka-server-start.bat ..\\..\config\server.properties
+<!-- Once the files are downloaded and opened we can now run them on a browser. -->
 
-<!-- Once Zookeeper and Kafka-broker are running, the files can now be executed. -->
-
-
-*Note it will not be necessary to run the consumer and producer in the Kafka setup, as it will be done in the ballerina files.*
 
 ---
 
-## Ballerina Setup
+## Running the application
 
-Follow the instructions below to run the consumer and producer. 
+To successfully run the application, begin by runnig the "login.html" file and use the credentials: 
+>email: "danni@gmail.com" 
 
-*Note for the files to run successfully please run the consumer before the producer.*
+and 
 
-### Running The Consumer 
+>password: "12345"
 
-Use the following command on the terminal to run the producer: 
+Doing so will take you to the main page "index.html" where all CRUD functions can be performed. 
 
->bal run consumer/
+<br>
+*Note: if an incorrect email or password is entered the user will not be redirected to the main page.*
+<br>
+<br>
 
-*Note you need to be inside the directory **'dsa-assignment-2'** for the commands to function.*
+* In the main page new files can be created by clicking on the "Add File" button. 
 
-### Running The Producer 
+* Files can be read by clicking on the file you wish to read.
 
-Use the following command on the terminal to run the producer: 
+* Files can be updated by selecting the file you wish to update and changing its information. 
 
->bal run producer/
+* Files can be deleted by double clicking the file you wish to delete. 
 
-*Note you need to be inside the directory **'dsa-assignment-2'** for the commands to function.*
-
-
-
+---
